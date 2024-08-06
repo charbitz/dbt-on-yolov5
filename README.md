@@ -1,1 +1,0 @@
-# dbt-on-yolov5
