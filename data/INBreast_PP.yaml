@@ -1,0 +1,13 @@
+path: ../datasets/INBreast_PP  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/valid # val images (relative to 'path')
+test: images/test # test images (optional)
+
+# Classes (1) :
+#names:
+#  0: finding
+
+
+nc: 1  # number of classes
+names:
+  [ 'finding']

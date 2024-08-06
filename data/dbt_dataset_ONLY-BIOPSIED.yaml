@@ -1,0 +1,13 @@
+path: ../datasets/dbt_dataset_ONLY-BIOPSIED  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/valid # val images (relative to 'path')
+test: images/test # test images (optional)
+
+# Classes (2) :
+#names:
+#  0: benign
+#  1: cancer
+
+nc: 2  # number of classes
+names:
+  [ 'benign', 'cancer']
